@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Local Weather Viewer</title>
+
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <link href="stylesheet.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container-fluid text-center">
+            <header>
+                <h1 id="app-title">Local Weather Viewer</h1>
+            </header>
+            
+            <div id="weather-data">
+                <div id="location"></div>
+                
+                <div id="temperature">
+                    <span id="temperature-figure"></span>
+                    <span id="switch" class="hidden">
+                        <span id="celsius" class="switch-option selected">&deg;C</span>
+                        <span id="switch-divider">|</span>
+                        <span id="fahrenheit" class="switch-option">&deg;F</span>
+                    </span>
+                </div>
+                
+                <div id="status"></div>
+            </div>
+            
+            <footer>
+                <p class="small">Coded by Aazib Chaudhry.</p>
+            </footer>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>

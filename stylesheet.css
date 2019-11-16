@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:700');
+
+body {
+    background: #333333;
+    color: #fff;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+footer p {
+    font-size: 12px;
+}
+
+.switch-option {
+    color: #84a3d6;
+    cursor: pointer;
+}
+
+.selected {
+    cursor: text;
+    color: #fff;
+}
+
+#app-title {
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+}
+
+#location {
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+
+#temperature {
+    margin-bottom: 5px;
+    margin-left: 2px;
+}
+
+#temperature-figure {
+    font-size: 30px;
+}
+
+#switch {
+    font-size: 12px;
+    position: relative;
+    bottom: 16px;
+    right: 2px;
+}
+
+#switch-divider {
+    color: #DCDCDC;
+}
+
+#status {
+    margin-bottom: 20px;
+}
